@@ -1,5 +1,5 @@
 import Joi from 'joi';
-// email, password, rol, lenguage
+
 
 export const createUserSchema = Joi.object({
   email: Joi.string().email().required()
