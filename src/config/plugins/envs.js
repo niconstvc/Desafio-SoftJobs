@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import env from 'env-var';
+import env from 'env-var'
 
 export const envs = {
   PORT: env.get('PORT').required().asPortNumber(),
@@ -8,5 +8,5 @@ export const envs = {
   PGPASSWORD: env.get('PGPASSWORD').required().asString(),
   PGDATABASE: env.get('PGDATABASE').required().asString(),
   PGPORT: env.get('PGPORT').required().asPortNumber(),
-  JWT_SEED: env.get('JWT_SEED').required().asString(),
-};
+  JWT_SEED: env.get('JWT_SEED').required().asString()
+}

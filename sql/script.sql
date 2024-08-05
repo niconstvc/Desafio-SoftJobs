@@ -1,6 +1,6 @@
 CREATE DATABASE softjobs;
 
-\c softjobs;
+-- \c softjobs;
 
 CREATE TABLE usuarios (
     id SERIAL,
