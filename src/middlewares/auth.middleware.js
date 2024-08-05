@@ -1,4 +1,4 @@
-import { JwtPlugin } from "../config/plugins/Jwt.js";
+import { JwtPlugin } from "../config/plugins/jwt.js";
 import {Encoder} from "../config/plugins/encoder.js";
 import {UserService} from "../users/services/user.service.js";
 
